@@ -12,6 +12,10 @@ body {
   margin: 10px 0;
 }
 
+.app_name{
+      color: blue;
+    }
+
 .darker {
   border-color: #ccc;
   background-color: #ddd;
