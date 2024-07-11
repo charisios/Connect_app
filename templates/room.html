@@ -36,6 +36,7 @@
             for (var key in response.messages) {
               var temp = "<div class='container darker'><b>" + response.messages[key].user + "</b><p>" + response.messages[key].message + "</p><span class='time-left'>" + response.messages[key].date + "</span></div>";
               $("#display").append(temp);
+              window.scrollTo(0, document.body.scrollHeight);
             }
           },
           error: function (response) {
